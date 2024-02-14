@@ -1,19 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: back
+  name: back-end-deployment
+  namespace: back
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
-      app: back
+      app: back-end
   template:
     metadata:
       labels:
-        app: back
+        app: back-end
     spec:
       containers:
       - name: back-container
-        image: goodacr.azurecr.io/kwujio/myhttpd:latest
+        image: goodbirdacr.azurecr.io/medicine/back:latest
         ports:
         - containerPort: 8080
