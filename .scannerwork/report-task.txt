@@ -1,0 +1,6 @@
+projectKey=metahospital_back_project
+serverUrl=http://sonarqube.metahospital.shop
+serverVersion=10.4.0.87286
+dashboardUrl=http://sonarqube.metahospital.shop/dashboard?id=metahospital_back_project
+ceTaskId=cca1892c-adea-41c0-b7dd-8cce65a24b58
+ceTaskUrl=http://sonarqube.metahospital.shop/api/ce/task?id=cca1892c-adea-41c0-b7dd-8cce65a24b58
