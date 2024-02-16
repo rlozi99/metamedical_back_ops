@@ -8,7 +8,7 @@ resources:
 images:
 - name: goodbirdacr.azurecr.io/medicine/back
   newName: goodbirdacr.azurecr.io/medicine/back
-  newTag: v1.0.Beta98
+  newTag: v1.0.Beta99
 - name: goodbirdacr.azurecr.io/medicine/front
   newName: goodbirdacr.azurecr.io/medicine/front
   newTag: latest
