@@ -19,3 +19,5 @@ spec:
         image: goodbirdacr.azurecr.io/medicine/back:latest
         ports:
         - containerPort: 8080
+      imagePullSecrets:
+      - name: goodbirdacr
