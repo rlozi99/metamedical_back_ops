@@ -5,14 +5,15 @@ resources:
 - ../../base
 
 configMapGenerator:
-- name: app-config
-  literals:
-    - ENV=staging
-    - DEBUG=false
+- literals:
+  - ENV=staging
+  - DEBUG=false
+  name: app-config
 
 images:
 - name: goodbirdacr.azurecr.io/medical/back
-  newTag: prod
+  newName: goodbirdacr.azurecr.io/medical/back
+  newTag: prod-2
 
 patches:
 - path: patch_deployment.yaml
