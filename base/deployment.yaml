@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: back-container
-        image: goodbirdacr.azurecr.io/medicine/back:latest
+        image: goodbirdacr.azurecr.io/medical/back:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
